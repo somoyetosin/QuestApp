@@ -1,0 +1,11 @@
+extend layout.pug
+
+block content
+  main.inner
+      form(action='/application', method='POST')
+        .form-group.row
+          .col-sm-6
+            input#username.form-control.form-control-lg(type='text', placeholder='Enter Name', name='username')
+        .form-group.row
+          .col-sm-12
+            button.btn.btn-primary(type='submit') Submit
