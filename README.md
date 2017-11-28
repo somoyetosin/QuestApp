@@ -14,3 +14,6 @@ Martins Somoye
 
 ## Question Database
 The questions are saved in a json file in the data folder.
+
+## HTML to PUG
+You can convert your html script to pug on http://html2jade.org/
